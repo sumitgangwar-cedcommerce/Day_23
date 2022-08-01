@@ -1,0 +1,16 @@
+#head{
+    background-color:#F5F7F7;
+    font-size:1.5vw;
+    text-align:left;
+    padding:1vw  8vw  0vw  1vw;
+    display: flex;
+    justify-content: space-between;
+}
+#head p{
+    color:black;
+    font-size:2.4vw;
+}
+#head a{
+    text-decoration:none;
+    color: black;
+}

@@ -1,0 +1,59 @@
+#cart-page{
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 60vh;
+}
+#item_table{
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 50%;
+    padding: 1vw;
+}
+#item_table td , th , tr{
+    width: 10%;
+    font-size:small;
+    border-collapse: collapse;
+    
+}
+
+#item_table img{
+    width: 50%;
+    height: 2%;
+}
+#item_table button{
+    border:none;
+}
+#clear{
+    cursor: pointer;
+    width: 100%;
+    padding: 1vw;
+    font-weight: 600;
+}
+#bill{
+    
+    padding:2vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 30%;
+}
+#bill button{
+    cursor: pointer;
+    border: none;
+    padding:1vw;
+}
+.del{
+    color:red;
+    background: transparent;
+}
+
+@media screen and (max-width:600px){
+    #item_table{
+        margin:3vh;
+        width:90%;
+    }
+    #bill{
+        margin:3vh;
+        width:70%;
+    }
+}

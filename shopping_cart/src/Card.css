@@ -1,0 +1,24 @@
+#card{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 78vh;
+}
+.card-item {
+    margin: 2vw;
+    width: 25vh;
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius:10%;
+}
+.card-item button {
+    cursor: pointer;
+    border: none;
+    padding:1vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-item button:hover {
+    background-color: aqua;
+}
